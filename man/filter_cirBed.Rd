@@ -7,7 +7,7 @@
 filter_cirBed(cirBed, scores = 50, discord = 4, splitreads = 4, length = 3e+07)
 }
 \arguments{
-\item{cirBed}{get by cirBed = read.table("my_unknown_circleMap.bed", sep = '\t', stringsAsFactors = FALSE)}
+\item{cirBed}{get by cirBed = read.table("my_unknown_circleMap.bed", sep = tab, stringsAsFactors = FALSE)}
 
 \item{scores}{Threshold of Circle score. score below would be removed}
 
